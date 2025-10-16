@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fa;
+}
+
+header {
+  background: #2b6777;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.biodata table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.biodata th, .biodata td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  background: #2b6777;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
